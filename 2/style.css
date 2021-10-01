@@ -1,0 +1,17 @@
+h1{
+    background-color: blue;
+    color: red;
+    padding-left: 650px;
+}
+.box{
+    background-color: red;
+    color: blue;
+}
+img{
+    margin-left: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+li{
+    margin-left: 50px;
+}
