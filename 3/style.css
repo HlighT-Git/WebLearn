@@ -1,0 +1,17 @@
+.title{
+    display: flex;
+}
+img{
+    margin-left:170px;
+    width: 125px;
+    height: 125px;
+}
+.in4{
+    font-family: Arial;
+    width: 500px;
+    text-align: center;
+}
+.image{
+    display: inline-block;
+    width: 500px;
+}
