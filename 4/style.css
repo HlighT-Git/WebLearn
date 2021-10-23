@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+/*head*/
+header{
+    background-color: black;
+    padding: 5px;
+    height: 40px;
+    display: flex;
+}
+header a{
+    color: white;
+    display: flex;
+    margin: auto;
+}
+.pageName{
+    margin-left: 5%;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+}
+header ul li{
+    margin-right: 50px;
+}
+header ul a{
+    color: gray;
+}
+header ul a:hover{
+    color: white;
+}
+.curSite{
+    color: white;
+}
+/* main */
+.main{
+    display: flex;
+    height: 1600px;
+    /* background-color: aqua; */
+}
+.left{
+    height: 25%;
+    width: 25%;
+}
+td{
+    padding: 5%;
+    width: 300px;
+    border: 1px solid gray;
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 5%;
+    border: 5px solid gray;
+}
+.right{
+    height: 100%;
+    width: 75%;
+}
+/*slides*/
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 14s ease infinite;
+}
+.slide-wrapper img{
+    width: 75%;
+    height: 100%;
+}
+.slide {
+    text-align: center;
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+}
+/*other*/
+.pleft, .pcenter, .pright{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 30%;
+    height: 500px;
+    cursor: pointer;
+}
+.pleft img, .pcenter img, .pright img{
+    width: 80%;
+    height: 55%;
+    margin-left: 10%;
+}
+/* footer */
+footer{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
